@@ -1,0 +1,20 @@
+plugins {
+    id 'java'
+}
+
+group = 'me.yourname.noshopincombat'
+version = '1.0'
+
+sourceCompatibility = '17'
+targetCompatibility = '17'
+
+repositories {
+    mavenCentral()
+    maven { url = 'https://repo.papermc.io/repository/maven-public/' }
+    maven { url = 'https://repo.codemc.io/repository/maven-public/' }
+}
+
+dependencies {
+    compileOnly 'io.papermc.paper:paper-api:1.21.4-R0.1-SNAPSHOT'
+    compileOnly 'com.github.Despical:SimpleCombatLog:k86ywEJC'
+}
