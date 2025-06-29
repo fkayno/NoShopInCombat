@@ -1,0 +1,14 @@
+NoShopInCombat/
+├── .gitignore
+├── build.gradle
+├── gradlew
+├── gradlew.bat
+├── settings.gradle
+├── src/
+│   ├── main/
+│   │   ├── java/
+│   │   │   └── me/yourname/noshopincombat/
+│   │   │       └── NoShopInCombat.java
+│   │   └── resources/
+│   │       └── plugin.yml
+└── README.md
